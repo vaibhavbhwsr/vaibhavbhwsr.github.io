@@ -38,7 +38,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: .5rem 10%;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -48,6 +48,11 @@ section {
 
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+.header img {
+    width: 50px;
+    height: 100%;
 }
 
 .logo {
@@ -389,7 +394,7 @@ span {
 
 @media (max-width: 991px) {
     .header {
-        padding: 2rem 3%;
+        padding: .5rem 3%;
     }
 
     .section {
