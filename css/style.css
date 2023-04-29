@@ -68,6 +68,7 @@ section {
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
+    text-align: center;
 }
 
 .navbar a:hover,
