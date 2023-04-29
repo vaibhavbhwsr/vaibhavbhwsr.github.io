@@ -19,7 +19,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 72%;
     overflow-x: hidden;
 }
 
@@ -52,7 +52,7 @@ section {
 
 .header img {
     padding-top: 3px;
-    width: 50px;
+    width: 60px;
     height: 100%;
 }
 
