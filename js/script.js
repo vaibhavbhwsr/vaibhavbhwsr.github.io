@@ -1,4 +1,5 @@
 /* ============ Toggle icon navbar ============ */
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -6,8 +7,6 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
-
-
 
 /* ============ Scroll section active link ============ */
 
@@ -36,11 +35,10 @@ window.onscroll = () => {
     /* ============ Remove toggle icon & navbar when click navbar link (scroll) ============ */
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
-
-    
 };
 
 /* ============ Scroll reveal ============ */
+
 ScrollReveal({
     // reset: true,
     distance: '80px',
@@ -55,10 +53,9 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /* ============ Typed js ============ */
 const typed = new Typed('.multiple-text', {
-    strings: ['Backend Developer', 'Python Developer', 'Web Developer'],
+    strings: ['Python Developer', 'Web Developer', 'Backend Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
-
 });
